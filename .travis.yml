@@ -4,4 +4,4 @@ node_js:
 before_script:
   - gem install dpl
 script:
-  - dpl --skip-cleanup --provider=heroku --app= --api-key=43083c37-c62b-44af-a815-2d6a7206608a
+  - dpl --skip-cleanup --provider=heroku --app=main --api-key=43083c37-c62b-44af-a815-2d6a7206608a
